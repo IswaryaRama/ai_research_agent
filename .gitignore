@@ -1,0 +1,21 @@
+# Backend Virtual Environment
+backend/venv/
+
+# Environment Variables
+backend/.env
+
+# Python Cache
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+
+# Local Databases
+backend/chroma_db/
+backend/research_assistant.db
+
+# User Uploads
+backend/uploads/
+
+# OS Files
+.DS_Store
+Thumbs.db
